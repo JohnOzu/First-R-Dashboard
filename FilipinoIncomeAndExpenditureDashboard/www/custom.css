@@ -1,0 +1,56 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #E8F7EE;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Style for custom info box */
+
+.header-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 0 10px;
+  margin: 0;
+}
+  
+.upper-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info-box {
+  background-color: #6F9CEB;
+  color: white;
+  padding: 15px 8px;
+  border-radius: 8px;
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.info-box:hover{
+  background-color: #8F9CEB;
+  transform: scale(1.05);
+}
+
+.info-box p {
+  margin: 0;
+}
+
+.info-box .title {
+  font-size: 10px;
+}
+
+.info-box .value {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
